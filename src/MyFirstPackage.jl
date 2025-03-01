@@ -1,5 +1,8 @@
 module MyFirstPackage
 
-# Write your package code here.
+using TropicalNumbers, LinearAlgebra, Graphs
 
+export shortest_path, smallgraph
+
+include("shortest_path.jl")
 end
